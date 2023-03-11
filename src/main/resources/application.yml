@@ -1,0 +1,17 @@
+server:
+  port:
+    80
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/violet
+    username: root
+    password: xnsmc2021
+  redis:
+    password: violet2021
+    port: 5555
+    database: 1
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
